@@ -2,7 +2,7 @@ module "vpc" {
     source  = "terraform-google-modules/network/google"
     version = "~> 2.5"
 
-    project_id   = "hashicat-gcp"
+    project_id   = "p-zqybhwvcgp7wtnn5kkwur52cd2vm"
     network_name = "example-vpc"
     routing_mode = "GLOBAL"
 
